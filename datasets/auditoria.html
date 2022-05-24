@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="con-este-código-se-lee-el-dataset.">Con este código se lee el dataset.</h1>
+<p>df = pd.read_csv(‘datasets/banco.csv’)</p>
+<h1 id="esta-linea-de-código-se-usa-para-revisar-la-dimensión-del-dataset.">Esta linea de código se usa para revisar la dimensión del dataset.</h1>
+<p>print('Dimensión: ', df.ndim)</p>
+<h1 id="esta-linea-de-código-es-para-revisar-y-que-imprima-los-datos-nulos-o-faltantes.">Esta linea de código es para revisar y que imprima los datos nulos o faltantes.</h1>
+<p>print('Datos nulos: ', df.isnull())</p>
+<h1 id="esta-linea-se-utiliza-para-ver-los-tipos-de-datos-en-general-del-dataset.">Esta linea se utiliza para ver los tipos de datos en general del dataset.</h1>
+<p>print('Tipo de datos en general: ', df.dtypes)</p>
+<h1 id="esta-linea-se-usa-para-ver-los-tipos-de-datos-de-cada-columna-del-dataset.">Esta linea se usa para ver los tipos de datos de cada columna del dataset.</h1>
+<p>for column in df:<br>
+print('Tipo de datos por culuma: ', df[column].dtypes)</p>
+<h1 id="este-código-imprime-información-sobre-un-dataset.">Este código imprime información sobre un dataset.</h1>
+<p>print(‘Uso de .info’, <a href="http://df.info">df.info</a>())</p>
+<h1 id="este-código-resume-la-tendencia-central-la-dispersión-y-la-forma-de-la-distribución-de-los-conjunto-de-datos.">Este código resume la tendencia central, la dispersión y la forma de la distribución de los conjunto de datos.</h1>
+<p>print(‘Uso de .describe’, df.describe())</p>
+<h1 id="está-linea-revisa-los-datos-duplicados-e-imprime-el-total-que-existe.">Está linea revisa los datos duplicados e imprime el total que existe.</h1>
+<p>print('Datos duplicados: ', df.duplicated().sum())</p>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+Continente_exportacion,Pais_exportacion,Exportacion_dolares,Continente_importacion,Pais_importacion,Importacion_dolares
+Americano,Estados Unidos,6920.14,Americano,Estados Unidos,3872.84
+Asiatico,China,3019.36,Americano,Canada,447.37
+Asiatico,Corea del Sur,846.16,Asiatico,China,324.89
+Europeo,Belgica,241.69,Asiatico,India,316.37
+Europeo,Reino Unido,214.16,Americano,Colombia,307.45
+Americano,Canada,207.08,Americano,Chile,250.85
+Asiatico,Japon,194.18,Europeo,Rusia,248.76
+Europeo,Alemania,84.97,Americano,Brasil,190.36
+Americano,Brasil,84.97,Europeo,Alemania,75.39
+Oseania,Australia,82.52,Africano,Sudafrica,53.7
